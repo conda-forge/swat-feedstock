@@ -1,6 +1,6 @@
 context:
   name: swat
-  version: "1.17.0"
+  version: "1.18.0"
   python_min: "3.9"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/sassoftware/python-${{ name }}/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 4ab8f4c0f1b7e42dbd28b5badcf13484d00ebc98c670356421ddebd0b6f0edbb
+  sha256: 937628cd47ae58027d587b302d8560b74b8d6c5c0fc50b60bbefbcc604311a32
 
 build:
   noarch: python
